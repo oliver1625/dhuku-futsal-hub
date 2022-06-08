@@ -1,0 +1,29 @@
+.main-head {
+  z-index: 2;
+  position: relative;
+  nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .logo {
+      flex: 1 1 20rem;
+    }
+    .nav-links {
+      display: flex;
+      justify-content: space-around;
+      flex: 1 1 20rem;
+      margin-bottom: 0rem !important;
+      a {
+      }
+      a:hover {
+        text-decoration: none;
+      }
+    }
+    .burger,
+    .menu-check {
+      display: none;
+    }
+  }
+}

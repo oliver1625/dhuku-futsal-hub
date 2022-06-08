@@ -1,0 +1,137 @@
+.intro {
+  .intro-container {
+    .carousel-inner {
+      .carousel-item {
+        height: 90vh;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        .carousel-caption {
+        }
+      }
+    }
+  }
+}
+
+// Welcome
+.welcome {
+  .welcome-container {
+    margin: 5rem auto;
+    width: 80%;
+    .row {
+      .image {
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+      .text {
+        padding-top: 5rem;
+      }
+    }
+  }
+}
+
+//Projects
+.projects {
+  .projects-container {
+    width: 95%;
+    margin: 0rem auto;
+    h2 {
+      text-align: center;
+      letter-spacing: 2px;
+      padding-bottom: 2rem;
+    }
+    .row {
+      .image {
+        opacity: 1;
+        transition: 0.5s ease;
+        cursor: pointer;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          display: block;
+        }
+        p {
+          position: absolute;
+          top: 30%;
+          left: 30%;
+          opacity: 0;
+          font-size: 2rem;
+          font-weight: 900;
+        }
+      }
+      .image:hover img {
+        opacity: 0.5;
+      }
+      .image:hover p {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+//Learn more
+.learn-more {
+  margin: 2rem 0rem;
+  .learn-more-container {
+    min-height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
+      url("../img/pexels-pixabay-209296.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .text {
+      position: absolute;
+      top: 0;
+      left: 15%;
+      color: white;
+      font-weight: 600;
+      z-index: 99;
+      width: 50%;
+      margin: 0rem auto;
+      padding-top: 5rem;
+      font-size: 1.5rem;
+      a {
+        color: white;
+      }
+      a:hover {
+        text-decoration: none;
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+// Form
+form {
+  .form-container {
+    width: 40%;
+    margin: 5rem auto;
+    h2 {
+      text-align: center;
+      letter-spacing: 2px;
+    }
+    button {
+      border: none;
+      padding: 1rem;
+      width: 100%;
+      margin: 0rem auto;
+    }
+  }
+}
+
+// Footer
+footer {
+  min-height: 30vh;
+  .footer-container {
+    width: 90%;
+    margin: auto;
+    padding: 3rem 0rem;
+  }
+}
